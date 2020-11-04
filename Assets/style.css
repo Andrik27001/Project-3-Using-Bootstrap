@@ -14,6 +14,18 @@ a {
   padding: 8px 15px 9px;
   background-color: #FFFFFFE6;
   position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.top-story-image {
+  position: relative;
+}
+
+.img-fluid {
+  position: absolute;
+  width: 100%; 
 }
 
 .category a {
