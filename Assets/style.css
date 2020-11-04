@@ -1,7 +1,27 @@
+ul {
+  list-style-type: none;
+}
 img {
   width: 100%;
 }
+a {
+  color: inherit;
+}
 
+.main-div h3 {
+color: inherit;
+
+}
+.main-div a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 22px;
+  color: black;
+}
+.summary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #333333;
+}
 .nav-container {
   background-color: #F72210;
 }
@@ -15,3 +35,4 @@ img {
   opacity: .75;
   color: white;
 }
+
