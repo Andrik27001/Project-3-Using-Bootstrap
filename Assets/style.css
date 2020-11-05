@@ -2,6 +2,7 @@
   font-family: "Roboto Condensed", sans-serif;
   box-sizing: border-box;
 }
+
 body {
   font-size: 13px;
   line-height: 18px;
@@ -21,15 +22,22 @@ ul {
 .small-navbar {
   background-color: #f72210;
 }
+
+.small-navbar img {
+  width: 160px;
+}
+
 .opinion {
   display: flex;
   flex-direction: column;
 }
+
 .headshot img {
   width: 63px;
   height: 63px;
 
 }
+
 .newsletter-signup {
   max-width: 300px;
   margin: 0 auto 30px;
@@ -37,10 +45,12 @@ ul {
   background-color: #f4f5f6; 
   padding: 20px;
 } 
+
 .free-signup input {
   width: 100%;
   margin-bottom: 5px;
 }
+
 .form-submit {
   color: white;
   text-transform: uppercase;
@@ -51,6 +61,7 @@ ul {
   border-radius: 3px;
   border: none ;
 }
+
 .img-main {
   background-color: #f4f5f6;
   padding: 24px 20px 20px;
@@ -337,7 +348,6 @@ ul {
 .image-stack {
   display: grid;
   width: 300px;
- 
   grid-template-columns: repeat(12, 1fr);
   position: relative;
 }
