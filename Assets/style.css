@@ -471,6 +471,35 @@ color: #333;
     font-size: 32px;
     justify-content: flex-end;
 }
+.vs-div {
+  position: relative;
+  justify-content: center;
+}
+.vs-wrap {
+  position: relative;
+}
+
+.hr1 {
+  margin-bottom: 1px;
+}
+
+.hr2 {
+  margin-top: 1px;
+}
+
+.decoration {
+  position: absolute;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  left: 45%;
+  top: -15px;
+}
+
 
 
 @media only screen and (max-width: 600px) {
