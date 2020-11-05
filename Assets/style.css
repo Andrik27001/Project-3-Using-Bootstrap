@@ -11,6 +11,7 @@ body {
 img {
   cursor: pointer;
   width: 100%;
+  height: auto;
 }
 
 ul {
@@ -33,7 +34,7 @@ ul {
   max-width: 300px;
   margin: 0 auto 30px;
   border: 1px solid #e5e5e5; 
-   background-color: #f4f5f6; 
+  background-color: #f4f5f6; 
   padding: 20px;
 } 
 .free-signup input {
@@ -43,13 +44,13 @@ ul {
 .form-submit {
   color: white;
   text-transform: uppercase;
-   cursor: pointer;
+  cursor: pointer;
   font-weight: bold;
   font-family: "Roboto Condensed",sans-serif;
-    background-color:  #f61602;
-    border-radius: 3px;
-    border: none ;
-  }
+  background-color:  #f61602;
+  border-radius: 3px;
+  border: none ;
+}
 
 .page-header .login-button {
   font-size: 0;
@@ -206,6 +207,7 @@ ul {
 .div-title {
   font-size: 19px;
   color: #333;
+  padding: 0 0 12px;
   margin: 0 0 15px;
 }
 
@@ -279,6 +281,8 @@ ul {
   color: #f72210;
 }
 
+
+
 .us-div h4 {
   margin: 10px 0 25px;
 }
@@ -293,6 +297,24 @@ ul {
   color: black;
 }
 
+.feature ul {
+  padding: 0;
+  margin: 0;
+}
+
+.feature img {
+  width: 258px;
+}
+
+.feature li {
+  padding: 10px 0;
+}
+
+.info {
+  padding-left: 16px;
+  width: 100%;
+}
+
 .info a {
   font-size: 17px;
   color: black;
@@ -301,6 +323,29 @@ ul {
 .info a:hover {
   text-decoration: underline #f72210;
   color: black;
+}
+
+.block-title-red {
+  color: #f72210;
+}
+
+.image-stack {
+  display: grid;
+  width: 300px;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+}
+
+.image-stack__item--top {
+  grid-column: 1 / span 8;
+  grid-row: 1; 
+  padding-top: 20%; 
+  z-index: 1;
+}
+
+.image-stack__item--bottom {
+  grid-column: 4 / -1;
+  grid-row: 1;
 }
 
 @media only screen and (max-width: 600px) {
