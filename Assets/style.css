@@ -51,6 +51,11 @@ ul {
   border-radius: 3px;
   border: none ;
 }
+.img-main {
+  background-color: #f4f5f6;
+  padding: 24px 20px 20px;
+}
+
 
 .page-header .login-button {
   font-size: 0;
@@ -332,6 +337,7 @@ ul {
 .image-stack {
   display: grid;
   width: 300px;
+ 
   grid-template-columns: repeat(12, 1fr);
   position: relative;
 }
@@ -342,11 +348,53 @@ ul {
   padding-top: 20%; 
   z-index: 1;
 }
-
+.mag-cont {
+  background-color: #f4f5f6;
+  padding: 24px 20px 20px;
+}
 .image-stack__item--bottom {
   grid-column: 4 / -1;
   grid-row: 1;
 }
+.footer-div svg {
+  width: 236px;
+  height: 35px;
+  margin-left: 20px;
+  fill: #f72210;
+}
+.leaf {
+color: #333;
+}
+.edition-div li a {
+  color: #666666;
+  font-size: 14px;
+  
+}
+.copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+}
+.about-us {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100vw;
+}
+.edition-div {
+  max-width: 100%;
+  border-top: 1px solid grey;
+  margin-right: 15px;
+  margin-top: 6px;
+  justify-content: space-around;
+}
+.iconify {
+  color: #666;
+    margin-bottom: 12px;
+    font-size: 32px;
+    justify-content: flex-end;
+}
+
 
 @media only screen and (max-width: 600px) {
   .more-stories {
@@ -359,6 +407,7 @@ ul {
     width: 95px;
 
   }
+  
 }
 
 @media only screen and (min-width: 768px) {
