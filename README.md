@@ -26,7 +26,7 @@ This is a Microverse collaborative project that consists of making a clone of  T
 
 ## Live Demo
 
-[Live Demo Link](https://admiring-meitner-784e1d.netlify.app/)
+[Live Demo Link](https://laughing-volhard-eb1222.netlify.app)
 
 **See the page via the link above**
 
