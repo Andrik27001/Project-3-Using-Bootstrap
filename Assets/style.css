@@ -2,10 +2,15 @@
   font-family: "Roboto Condensed", sans-serif;
   box-sizing: border-box;
 }
+body {
+  font-size: 13px;
+  line-height: 18px;
+  color: #333;
+}
 
 img {
   cursor: pointer;
-  width: 200px;
+  width: 100%;
 }
 
 ul {
@@ -15,6 +20,36 @@ ul {
 .small-navbar {
   background-color: #f72210;
 }
+.opinion {
+  display: flex;
+  flex-direction: column;
+}
+.headshot img {
+  width: 63px;
+  height: 63px;
+
+}
+.newsletter-signup {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5; 
+   background-color: #f4f5f6; 
+  padding: 20px;
+} 
+.free-signup input {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.form-submit {
+  color: white;
+  text-transform: uppercase;
+   cursor: pointer;
+  font-weight: bold;
+  font-family: "Roboto Condensed",sans-serif;
+    background-color:  #f61602;
+    border-radius: 3px;
+    border: none ;
+  }
 
 .page-header .login-button {
   font-size: 0;
@@ -29,6 +64,7 @@ ul {
 .top-story-image {
   position: relative;
 }
+
 
 .img-fluid {
   position: absolute;
@@ -268,12 +304,22 @@ ul {
 }
 
 @media only screen and (max-width: 600px) {
-  
+  .more-stories {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .more-stories img {
+    height: 95px;
+    width: 95px;
+
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .summary {
     font-size: 15px;
+
   }
 }
 
