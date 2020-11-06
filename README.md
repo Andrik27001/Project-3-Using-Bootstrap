@@ -2,7 +2,7 @@
 
 ## Newsweek clone
 
-This is a Microverse collaborative project that consists of making a clone of  TNW (The Next Web) page, by learning and applying different HTML & CSS technologies like types of media, background images, grids, or media queries.
+This is a Microverse collaborative project that consists of making a clone of The Newsweek web page, by learning and applying Bootstrap as the main technology to build the structure of the page and other sections using containers, responsive navbars, dropdowns, etc.
 
 ## Screenshot
 
@@ -10,16 +10,19 @@ This is a Microverse collaborative project that consists of making a clone of  T
 
 ## Newsweek with the following features:
 
-- Backgrounds features
+- Bootstrap containers and their respective rows and columns
 
 - Media queries for different screen sizes
 
+- Responsiveness 
 
 ## Built With
 
 - HTML
 
 - CSS
+
+- Bootstrap
 
 - Media queries
 
@@ -39,11 +42,11 @@ This is a Microverse collaborative project that consists of making a clone of  T
 - Twitter: [@Andrik22693566](https://twitter.com/Andrik22693566)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/andrik-solis-paniagua-a0ab251b5/)
 
-👤 **Wandji Bertrand**
+👤 **Ray king**
 
-- GitHub: [@github](https://github.com/wandji20)
-- Twitter: [@twitter](https://twitter.com/wandjibertrand)
-- LinkedIn: [LinkedIn](linkedin.com/in/wandji-bertrand-5232621b2/)
+- GitHub: [@rayking12](https://github.com/rayking12)
+- Twitter: [@_RayKing__](http://twitter.com/@_RayKing__)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/king-ray-514b8913)
 
 
 ## Show your support
