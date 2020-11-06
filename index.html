@@ -12,35 +12,38 @@
   </head>
   <body>
 
-    <header class="page-header">
-      <nav class="navbar small-navbar">
+    <header>
+
+      <nav class="navbar small-navbar fixed-top">
         <a href="#" class="navbar-brand"><img src="./Assets/Images/Newsweek_Logo.svg.png" alt="logo"></a>
-        <div class="btn-group">
-          <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="iconify" data-icon="uil:bars" data-inline="false"></span>
-          </button>
-          <div class="dropdown-menu dropdown-menu-right">
-            <input type="search" class="input-nav">
-            <span class="iconify" data-icon="bytesize:search" data-inline="false"></span>
-            <a href="#" class="dropdown-item">U.S.</a>
-            <a href="#" class="dropdown-item">World.</a>
-            <a href="#" class="dropdown-item">Business</a>
-            <a href="#" class="dropdown-item">Tech & Science.</a>
-            <a href="#" class="dropdown-item">Culture</a>
-            <a href="#" class="dropdown-item">Newsgeek</a>
-            <a href="#" class="dropdown-item">Sports</a>
-            <a href="#" class="dropdown-item">Health</a>
-            <a href="#" class="dropdown-item">The Debate</a>
-            <a href="#" class="dropdown-item">Vantage</a>
-            <a href="#" class="dropdown-item">Weather</a>
-            <br>
-            <span class="dropdown-item">Trending</span>
-            <a href="#" class="dropdown-item">Donald Trump</a>
-            <a href="#" class="dropdown-item">Joe Biden</a>
-            <a href="#" class="dropdown-item">2020 Election</a>
-            <a href="#" class="dropdown-item">Stimulus Package</a>
-            <a href="#" class="dropdown-item">Coronavirus</a>
-            <a href="#" class="dropdown-item">Counties that count</a>
+        <div class="nav-right">
+          <a href="#"><span class="iconify" data-icon="bx:bxs-user" data-inline="false"></span></a>
+          <button type="button" class="btn btn-warning p-1 rounded-pill">SUBSCRIBE ></button>
+          <div class="btn-group ">
+            <button type="button" class="btn m-0 p-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a href="#"><span class="iconify" data-icon="uil:bars" data-inline="false"></span></a>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a href="#" class="dropdown-item">U.S.</a>
+              <a href="#" class="dropdown-item">World.</a>
+              <a href="#" class="dropdown-item">Business</a>
+              <a href="#" class="dropdown-item">Tech & Science.</a>
+              <a href="#" class="dropdown-item">Culture</a>
+              <a href="#" class="dropdown-item">Newsgeek</a>
+              <a href="#" class="dropdown-item">Sports</a>
+              <a href="#" class="dropdown-item">Health</a>
+              <a href="#" class="dropdown-item">The Debate</a>
+              <a href="#" class="dropdown-item">Vantage</a>
+              <a href="#" class="dropdown-item">Weather</a>
+              <br>
+              <span class="dropdown-item">Trending</span>
+              <a href="#" class="dropdown-item">Donald Trump</a>
+              <a href="#" class="dropdown-item">Joe Biden</a>
+              <a href="#" class="dropdown-item">2020 Election</a>
+              <a href="#" class="dropdown-item">Stimulus Package</a>
+              <a href="#" class="dropdown-item">Coronavirus</a>
+              <a href="#" class="dropdown-item">Counties that count</a>
+            </div>
           </div>
         </div>
       </nav>
@@ -54,13 +57,13 @@
               <div class="row">
                 <div class="col-12 col-md-5 featured-stories">
 
-                  <article class="d-md-none">
+                  <article class="d-md-none pb-5">
                     <div class="block-title">TOP STORY</div>
                       <div class="top-story-image">
                         <img src="./Assets/Images/donald-trump.webp" alt="TOP STORY"/>
                         <div class="category"><a href="#">U.S.</a></div>
                       </div>
-                      <h2><a href="#">Voters Expect Protests if Donald Trump Wins the Election: Poll</a></h2>
+                      <h2 class="top-header"><a href="#">Voters Expect Protests if Donald Trump Wins the Election: Poll</a></h2>
                       <div class="summary">President Donald Trump said in September that if civil unrest erupted on election night, his administration would "put it down within minutes."</div>
                   </article>
 
@@ -152,7 +155,7 @@
                 <div class="col-12 col-md-7">
                   <div class="top-story">
                     
-                    <article class="d-sm-none d-md-block">
+                    <article class="d-sm-none d-md-block pb-3">
                       <div class="block-title">TOP STORY</div>
                       <div class="top-story-image">
                         <img src="./Assets/Images/donald-trump.webp" alt="TOP STORY"/>
@@ -521,7 +524,7 @@
           </div>
 
           <div class="container-fluid magazine">
-            <div class="row">
+            <div class="row mb-3">
               <div class="col-sm-12 col-md-3">
                 <div class="top-story-image">
                   <img src="./Assets/Images/cover-november-06-11-2020.webp" alt="cover">
@@ -530,7 +533,7 @@
                 <div class=" d-flex justify-content-center align-items-center see-features"><a href="#">SEE ALL FEATURES ></a></div>
               </div>
 
-              <div class="col-sm-12 col-md-3">
+              <div class="col-sm-12 col-md-3 magazine-img">
                 <img src="./Assets/Images/cul-map-otherworldly-banner.webp" alt="cul map">
                 <div class="magazine-spans">
                   <span class="cover-span">COVER</span>
@@ -539,7 +542,7 @@
                 <h2><a href="#">Otherworldly Natural Phenomena You've Got to See</a></h2>
               </div>
 
-              <div class="col-sm-12 col-md-3">
+              <div class="col-sm-12 col-md-3 magazine-img">
                 <img src="./Assets/Images/cul-map-otherworldly-banner.webp" alt="cul map">
                 <div class="magazine-spans">
                   <span class="cover-span">COVER</span>
@@ -548,7 +551,7 @@
                 <h2><a href="#">Otherworldly Natural Phenomena You've Got to See</a></h2>
               </div>
 
-              <div class="col-sm-12 col-md-3">
+              <div class="col-sm-12 col-md-3 magazine-img">
                 <img src="./Assets/Images/cul-map-otherworldly-banner.webp" alt="cul map">
                 <div class="magazine-spans">
                   <span class="cover-span">COVER</span>
@@ -559,9 +562,9 @@
 
             </div>
 
-            <div class="row">
+            <div class="row mb-3">
 
-              <div class="col-sm-12 col-md-3">
+              <div class="col-sm-12 col-md-3 magazine-img">
                 <img src="./Assets/Images/cul-map-otherworldly-banner.webp" alt="cul map">
                 <div class="magazine-spans">
                   <span class="cover-span">COVER</span>
@@ -570,7 +573,7 @@
                 <h2><a href="#">Otherworldly Natural Phenomena You've Got to See</a></h2>
               </div>
 
-              <div class="col-sm-12 col-md-3">
+              <div class="col-sm-12 col-md-3 magazine-img">
                 <img src="./Assets/Images/cul-map-otherworldly-banner.webp" alt="cul map">
                 <div class="magazine-spans">
                   <span class="cover-span">COVER</span>
@@ -579,7 +582,7 @@
                 <h2><a href="#">Otherworldly Natural Phenomena You've Got to See</a></h2>
               </div>
 
-              <div class="col-sm-12 col-md-3">
+              <div class="col-sm-12 col-md-3 magazine-img">
                 <img src="./Assets/Images/cul-map-otherworldly-banner.webp" alt="cul map">
                 <div class="magazine-spans">
                   <span class="cover-span">COVER</span>
@@ -588,7 +591,7 @@
                 <h2><a href="#">Otherworldly Natural Phenomena You've Got to See</a></h2>
               </div>
 
-              <div class="col-sm-12 col-md-3">
+              <div class="col-sm-12 col-md-3 magazine-img">
                 <img src="./Assets/Images/cul-map-otherworldly-banner.webp" alt="cul map">
                 <div class="magazine-spans">
                   <span class="cover-span">COVER</span>

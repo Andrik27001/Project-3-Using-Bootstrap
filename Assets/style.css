@@ -24,21 +24,42 @@ ul {
   display: flex;
   align-content: center;
   height: 50px;
-  background-color: #F72210;
+  background-color: #f72210;
+  z-index: 1;
 }
+
 .small-navbar img {
   width: 100px;
 }
 
-.opinion {
-  display: flex;
-  flex-direction: column;
+.nav-right .iconify {
+  color: white;
+}
+
+main {
+  margin-top: 50px;
+}
+
+.top-header a {
+  font-size: 22px;
+  color: black;
+}
+
+.top-header a:hover {
+  text-decoration: underline #f72210;
+}
+
+.the-debate ul {
+  padding: 0;
+}
+
+.the-debate img {
+  margin-right: 10px;
 }
 
 .headshot img {
   width: 63px;
   height: 63px;
-
 }
 
 .newsletter-signup {
@@ -70,21 +91,9 @@ ul {
   padding: 24px 20px 20px;
 }
 
-
-.page-header .login-button {
-  font-size: 0;
-  background: url(https://g.newsweek.com/www/images/user-w.svg) center / contain no-repeat;
-  width: 30px;
-  height: 30px;
-  padding-left: 0;
-  opacity: .75;
-  color: white;
-}
-
 .top-story-image {
   position: relative;
 }
-
 
 .img-fluid {
   position: absolute;
@@ -180,21 +189,16 @@ ul {
   text-decoration: underline #f72210;
 }
 
+.more-stories img {
+  width: 95px;
+}
+
 .sponsored h3 > a {
   font-size: 20px;
   color: black;
 }
 
 .sponsored h3 > a:hover {
-  text-decoration: underline #f72210;
-}
-
-.top-story h2 > a {
-  font-size: 22px;
-  color: black;
-}
-
-.top-story h2 > a:hover {
   text-decoration: underline #f72210;
 }
 
@@ -224,6 +228,7 @@ ul {
 }
 
 .div-title {
+  width: 100%;
   font-size: 19px;
   color: #333;
   padding: 0 0 12px;
@@ -233,6 +238,7 @@ ul {
 .div-title img {
   width: 29px;
   height: 28px;
+  margin-right: 8px;
 }
 
 .see-features {
@@ -300,7 +306,10 @@ ul {
   color: #f72210;
 }
 
-
+.us-div {
+  margin-bottom: 70px;
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
 
 .us-div h4 {
   margin: 10px 0 25px;
@@ -326,7 +335,7 @@ ul {
 }
 
 .feature li {
-  padding: 10px 0;
+  padding: 0 0 10px 0;
 }
 
 .info {
@@ -513,31 +522,39 @@ color: #333;
   top: -15px;
 }
 
-
-
-@media only screen and (max-width: 600px) {
-  .more-stories {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-  }
-  .more-stories img {
-    height: 95px;
-    width: 95px;
-
-  }
-  
-}
-
 @media only screen and (min-width: 768px) {
   .summary {
     font-size: 15px;
+  }
 
+  .feature img {
+    width: 90px;
+  }
+
+  .top-story h2 > a {
+    font-size: 22px;
+    color: black;
+  }
+  
+  .top-story h2 > a:hover {
+    text-decoration: underline #f72210;
+  }
+
+  .sponsored {
+    margin: 0 auto;
+    width: 40%;
+  }
+
+  .magazine-img img {
+    height: 260px;
   }
 }
 
 
 @media only screen and (min-width: 1024px) {
-
+  .sponsored {
+    margin: 0 auto;
+    width: 100%;
+  }
 }
 
