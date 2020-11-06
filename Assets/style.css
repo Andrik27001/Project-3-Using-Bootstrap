@@ -18,11 +18,35 @@ main {
   background-color: #f4f5f6;
 }
 
-
 img {
   cursor: pointer;
   width: 100%;
   height: auto;
+}
+
+.desktop-nav {
+  width: 100%;
+  z-index: 10;
+}
+
+.small-nav {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  height: 50px;
+  background: #f72210;
+  z-index: 4;
+}
+
+.small-nav img {
+  width: 150px;
+}
+
+#search-input {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70px;
+  border: none;
 }
 
 ul {
@@ -39,30 +63,31 @@ ul {
 }
 
 .second-nav {
-background-color: #fafafa;
-border-top-right-radius: 20px;
-padding: 10px 0;
+  background-color: #fafafa;
+  border-top-right-radius: 20px;
+  padding: 10px 0;
 }
 
 .second-nav a {
   padding-right: 15px;
   border-right: 1px solid #c7c7c7;
   margin-right: 15px;
-  color: #333;
+  color: black;
 }
 
 .third-nav {
+  background-color: #f4f5f6;
   border-top: 1px solid #f4f5f6e8;
   border-bottom: 2px solid #f4f5f6d2;
-
+  height: 30px;
 }
 
 .third-nav a {
+  font-size: 14px;
   padding-right: 15px;
   margin-right: 15px;
-  color: #333;
+  color: #888;
   top: 40px;
-  line-height: 30px;
 }
 
 .top-navbar {
@@ -72,18 +97,6 @@ padding: 10px 0;
 
 .weather a {
   color: #f4f5f6;
-}
-.small-navbar {
-  width: 100%;
-  display: flex;
-  align-content: center;
-  height: 50px;
-  background-color: #f72210;
-  z-index: 1;
-}
-
-.small-navbar img {
-  width: 150px;
 }
 
 .iconify {
@@ -431,7 +444,7 @@ padding: 10px 0;
 .nl-cont .info h3 {
   line-height: 28px;
   margin-bottom: 15px;
-  z-index: 6;
+  z-index: 2;
 }
 
 .nl-cont .info .signup-email,
@@ -502,6 +515,16 @@ padding: 10px 0;
   color: white;
 }
 
+.second-nav a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.third-nav a:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
 .top-header a:hover {
   text-decoration: underline #f72210;
 }
@@ -568,10 +591,6 @@ padding: 10px 0;
 }
 
 @media only screen and (min-width: 768px) {
-  main {
-  margin-top:0;
-  }
-
   .summary {
     font-size: 15px;
   }
@@ -603,5 +622,9 @@ padding: 10px 0;
   .sponsored {
     margin: 0 auto;
     width: 100%;
+  }
+
+  main {
+    margin-top: 180px;
   }
 }

@@ -13,64 +13,13 @@
   <body>
 
     <header>
-      
-      <nav>
-        <div class="container d-flex justify-content-between top-navbar">
-          <div class="">
-            <div class="weather">
-              <a href="#"><span class="iconify" data-icon="ion:partly-sunny" data-inline="false"></span>Lagos, NG ></a>
-            </div>
-            <div class="date">
-              <date>Thu, Nov 05, 2020</date>
-            </div>
-          </div>
-          <div class="nav-style">
-            <a href="#" ><img src="./Assets/Images/Newsweek_Logo.svg.png" alt="logo"></a>
-          </div>
-          <div class="d-flex align-items-center">
-            <a href="#" class="nav-features"><span class="d-sm-none  d-md-block ">LOGIN</span></a>
-            <button type="button" class="btn btn-warning ml-2 rounded-pill">SUBSCRIBE ></button>
-          </div>
-        </div>
-        <div class="container ">
-          <div class="row">
-            <div class="col-12 second-nav">
-              <a href="#"> U.S </a>
-              <a href="#">WORLD </a>
-              <a href="#">BUSINESS </a>
-              <a href="#">TECH & SCIENCE </a>
-              <a href="#">CULTURE </a>
-              <a href="#">NEWSGEEK </a>
-              <a href="#">SPORT </a>
-              <a href="#">HEALTH </a>
-              <a href="#">THE DEBATE </a>
-              <a href="#">THE VANTAGE </a>
-              <a href="#">WEATHER </a>
-          </div>
-          </div>
-        </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-12 third-nav">
-              <a href="#">TRENDING</a>
-            <a href="#">DONALD TRUMP</a>
-            <a href="#">JOE BIDEN</a>
-            <a href="#">2020 ELECTION</a>
-            <a href="#">STIMULS PACKAGE</a>
-            <a href="#">CORONA VIRUS</a>
-            <a href="#">COUNTRIES THAT COUNT</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-
-        <nav class="navbar small-navbar fixed-top  ">
-          
-        <a href="#" class="navbar-brand "><img src="./Assets/Images/Newsweek_Logo.svg.png" alt="logo"></a>
+      <div class="navbar small-nav fixed-top d-lg-none">
+        
+        <a href="#" class="navbar-brand"><img src="./Assets/Images/Newsweek_Logo.svg.png" alt="logo"></a>
         <div class="d-flex nav-right align-items-center">
           <a href="#"><span class="iconify d-md-none" data-icon="bx:bxs-user" data-inline="false"></span></a>
-          <a href="#" class="nav-features"><span class="d-sm-none d-md-block pr-3">LOGIN</span></a>
+          <a href="#" class="nav-features"><span class="d-none d-md-block pr-3">LOGIN</span></a>
           <button type="button" class="btn btn-warning p-0 pl-2 pr-2 mr-3 rounded-pill">SUBSCRIBE ></button>
           <div class="btn-group ">
             <button type="button" class="btn m-0 p-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -100,29 +49,82 @@
             </div>
           </div>
         </div>
+      </div>
+      <nav class="d-none d-lg-block desktop-nav fixed-top">
+        <div class="container d-flex justify-content-between top-navbar">
+          <div>
+            <div class="weather">
+              <a href="#"><span class="iconify" data-icon="ion:partly-sunny" data-inline="false"></span>Lagos, NG ></a>
+            </div>
+            <div class="date">
+              <span>Thu, Nov 05, 2020</span>
+            </div>
+          </div>
+          <div class="nav-style">
+            <a href="#" ><img src="./Assets/Images/Newsweek_Logo.svg.png" alt="logo"></a>
+          </div>
+          <div class="d-flex align-items-center">
+            <a href="#" class="nav-features"><span class="d-sm-none  d-md-block ">LOGIN</span></a>
+            <button type="button" class="btn btn-warning ml-2 rounded-pill">SUBSCRIBE ></button>
+          </div>
+        </div>
+        <div class="container ">
+          <div class="row">
+            <div class="col-12 second-nav">
+              <a href="#">U.S.</a>
+              <a href="#">World</a>
+              <a href="#">Business</a>
+              <a href="#">Tech & Science</a>
+              <a href="#">Culture</a>
+              <a href="#">Newsgeek</a>
+              <a href="#">Sports</a>
+              <a href="#">Health</a>
+              <a href="#">The Debate</a>
+              <a href="#">Vantage</a>
+              <a href="#">Weather</a>
+              <input type="search" placeholder="Search" name="search" id="search-input">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><g fill="none" stroke="#626262" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="14" cy="14" r="12"/><path d="M23 23l7 7"/></g></svg>
+            </div>
+          </div>
+        </div>
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-12 third-nav">
+              <a href="#">TRENDING</a>
+              <a href="#">DONALD TRUMP</a>
+              <a href="#">JOE BIDEN</a>
+              <a href="#">2020 ELECTION</a>
+              <a href="#">STIMULS PACKAGE</a>
+              <a href="#">CORONA VIRUS</a>
+              <a href="#">COUNTRIES THAT COUNT</a>
+            </div>
+          </div>
+        </div>
       </nav>
-
+      
+      
     </header>
-
-    <main>
-      <div class="container-xl main-container p-3">
-        <div class="row">
+    
+      <main>
+        <div class="container-xl main-container p-3">
+          <div class="row">
             <div class="col-12 col-lg-8">
               <div class="row">
                 <div class="col-12 col-md-5 featured-stories">
-
+                  
                   <article class="d-md-none pb-5">
                     <div class="block-title">TOP STORY</div>
-                      <div class="top-story-image">
-                        <img src="./Assets/Images/donald-trump.webp" alt="TOP STORY"/>
-                        <div class="category"><a href="#">U.S.</a></div>
-                      </div>
-                      <h2 class="top-header"><a href="#">Voters Expect Protests if Donald Trump Wins the Election: Poll</a></h2>
-                      <div class="summary">President Donald Trump said in September that if civil unrest erupted on election night, his administration would "put it down within minutes."</div>
+                    <div class="top-story-image">
+                      <img src="./Assets/Images/donald-trump.webp" alt="TOP STORY"/>
+                      <div class="category"><a href="#">U.S.</a></div>
+                    </div>
+                    <h2 class="top-header"><a href="#">Voters Expect Protests if Donald Trump Wins the Election: Poll</a></h2>
+                    <div class="summary">President Donald Trump said in September that if civil unrest erupted on election night, his administration would "put it down within minutes."</div>
                   </article>
-
+                  
                   <div class="block-title">FEATURED STORIES</div>
-
+                  
                   <div class="mb-4">
                     <div class="top-story-image">
                       <img class="img-responsive" src="Assets/Images/getty-images-new-york-voting-booth.webp" alt="FEATURED STORY"/>
